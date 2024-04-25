@@ -1,6 +1,11 @@
 import pandas as pd
 import numpy as np
 
+##TODO: A recept listát kiegészíteni egy új oszloppal amiben a étel jellege van, (reggeli, ebéd, vacsora, kiskaja)
+##TODO: Hozzáadni, hogy vegye figyelembe a tervezésnél az étel jellegét is.
+##TODO: Bevezetni, hogy hány főételből lehessen választani, tehát hány ételt tud főzni egyszerre
+
+
 # Pandas megjelenítési beállításainak módosítása
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_columns', None)
